@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%; /* 16px * 62.5 = 10px = 1rem */
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+svg,
+.lc {
+  color: rgba(0, 0, 0, 0.56);
+}

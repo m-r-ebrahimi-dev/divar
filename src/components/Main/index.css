@@ -1,0 +1,123 @@
+.container {
+  display: flex;
+  direction: rtl;
+  margin: 0 4rem;
+  justify-content: space-between;
+}
+ul {
+  list-style-type: none;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+p {
+  font-size: small;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 1.5rem;
+}
+
+.product {
+  display: flex;
+  direction: ltr;
+  border: 1px solid rgba(185, 185, 185, 0.56);
+  border-radius: 5px;
+  padding: 1.6rem;
+}
+
+img {
+  width: 13.6rem;
+  height: 13.6rem;
+}
+
+.p-img {
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.p-d {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.product-name {
+  flex: 1;
+}
+.l {
+  color: rgba(63, 63, 63, 0.56);
+  font-size: small;
+}
+.r {
+  direction: rtl;
+}
+.h2 {
+  font-size: medium;
+}
+
+.namad1 {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH0AAACICAMAAAD9ARS9AAAAz1BMVEUAAAAkS4QpVpcEAwUpVpcpVpcpVpcpVpcpVpcpVpcEAwUpVpcpVpcpVpcpVpcpVpcpVpcpVpf3lCH3lCHaomizsrP3lCEEAwX3lCEEAwWzsrMEAwUEAwUEAwX3lCEEAwUEAwUEAwUEAwX3lCGzsrP3lCH3lCH3lCH3lCGzsrMEAwUEAwWzsrOzsrOzsrOzsrP3lCGzsrOzsrOzsrMEAwWzsrP3lCH3lCH3lCEpVpf3lCGzsrMEAwX3myL67j75vy363DL4sin4pif56DD5yjf6xDnFAAAAOXRSTlMAEL9AQN/P74Bgv58wII9wr1DvvxDv34BQ77+PMCAwr2DfzyBnYM+vj99wUDCvkYCAUCDPn0CfQHCDG2xNAAAHH0lEQVR42uyYWZKjMAxAJRe2cXmD4+j+F5tNaUCNwvQgPD/9flJJqLxgLUaGb775N3D6CcL/oDRPv/GtwmAmRzva0AWoCx0JBYaxRpLECQbR6IQ4KPiZTnEwAreL9tL89q6Civ2d+4S/3qdITAMFe3lMwKB/rQQ8TXqZED4oxMDDlLiXy/V4uubDmRxWtj9c8jPnm+irOMReNcsQ+yIqa6h94lpDEKDabuybXNf+FoE90uHhE31At+GqntV8WEBin/AInyAlJPa1nvXuW+A5vFpVi5IQQ3KukpIQ9jnX1G8iwnPw5raCpAy49aI1FAxi53mCWSvp5brHI961B6Wk8/W6Fx9u6fUdPNFlm0uRKJvUG6lPeReTR7cIu/uqHF9psRpsru2L8hKIieVmtcsFbO/lNSfuznyVZdJhFj8r3UQIhTby7aRDsabaj2LjIkwWA36XKd8jf9LV8T4f+sGCZilfnH5kwHke+yFfZ4OUd6+QMqGeRSn+urLuZ8yYwMA+H9w0a8vkpsPo5wvc4qWrKXy4/emqZ3bvWBFM7JdnZBjYbQluUnnjUt7BnEnKZ1Tk1Po8z83Uno5uV7Qhk2mWbndc9KQ3BWY1C3n3B3ec8To8aOOuTRyJZn0nj9tFNsmW5WlkfX+ywFTzcF916y6uuse0D/f1klbLdcflYA386uH67LbZ3nhICMSUq2Lzk8ncwsRW97fW3o5Zrt13Y941Ftz+jz6nojc7n8dw0tTKFlW92Iqh3K/Hgwtm0id7O7ls5k2fClju0UoeOwgqKXpc7I6MgvrY4s57WYp2p2VZPPYrDxi+lz+fNW+4sSSx6OLmDwQXDaYk0atd/eunK1s55PfRWx6VTxeDHkZF3sCA5Qd75tfaNgxFcRkNOkQZxGltC9n1n6ZtZndpt5luXN8x9v2/1M7Vkj3c9WEmoWXDh0RXOhL+SccvAut7i9bqWfbZ6jSXxxlXW3XdeRkJXt9vX1Crs9djQ8nb3x9d352bV9D5G5FZtGjR/6fSucqY4NAdnBt+Oc2hNblMx+JGjEWB7cnolhlkx+jWnrvooIDBAQPvY3HcuZa7xEAN9nO8qnzsE7A8N5GecN1xhXOyQ2lb2dXAObeRbrE7riM9r6rcNv1xkfs2+A704H0i9Ib7nnvQQexLDkIfuay53NMtY1XsW5a9HaOaG1vLg/Keg+NoNNwJ3XoXvGEnwdvA4Rn6se/eMRTppsNREHxUhfNiV90o9CFa7Z6OvR3omDtOI7CmMkIvgTA91xbYHE8vG+bBwMPQ2patEKves03qcBp60smxIt0EkDoAzQDHSQ7egJ7gJ5MjPKgdsNqfhA5ZayuT4I/GYgRL2tIephNbokpbxrXQUKGfiLVo0b+jYn2trcc7o3Xzp/WwM1ofHubS7+irtlK60lZGhXIupumTsu6ny5nwC6JbnQbRVllXRE/K2kzTRlm7afo4j35DRCr6J6JMrdoSpTrlafqsrPfTtJsbPOnoUyIdfQar0MHr6O/hXM4NXkdfiLXVwevoN0Lf6OD/OvrrLF2v17dE34lifTRFmsHK6NsPSqWmhfmyt2hv0U/2yi5XQRiIwt4tQHtj+sALIiFR+TF4TQm0IPtf0z2DQ1N4sQvwJLb1s/HM0M6QwfeulCrISiolO9keygVJQgXNRfPRPdKLJovhne6RV2bmBdx5NVqH6m6nFllvJeH+QQky6Y2xw2xGjdSBsoiRMRPuWUa7NkgTOm2dLkDlHn2WOCPz1zAMc7/8LXuNhAzMkzc6M5qBjgtq5dZpF9FdhF051JYd7DAhTUYpvF4vO6DoEi9IC9RzPNCl8JwYyVBz/3rbSRujf73K7m3fgz4cqrQGmkcde8XOujmkVnQKNIeV7jU+XsM54xshL6B8Rdohl7tyqFt1DXWPNfRLQ7YiDUWR9jtgRGjZ9cekWWpL0nhgtQ4Voe56Od7K6y5UYbEQudfbUupHqXh4TbGmFEWjMLVe97mJy507YIBglQuaI3ekFZUe9ERAu5cOyjFnVHby9J670t0EWWMSt+CDT2N+4CJ3VnHC3SB+ul1HXuQVo/rKFd2qmlF5bfg31R6++uqrIP38s2suOQzDIBAFZD6W/8fh/hcrjhypapfpsiQimhmhJ9Ykv/2tVFO0cZknO4Vjt/RL7tWNrr7FYjeA5CDuJ0O77wYVQEJg+w3c+rVd0GuDtUJMzrjp1WcN4KbD2bk55MVBH3kbFac9grelUOvSTI0n9lkAUHJAU4A4RIGUCXI8pRgoiZNdyAWFrSuPB/cx6S7MpMlFBxMRx+siGhRywAqLk5OTinahSAJO00x0z4WdHqzuOjxIHVkpvmuxOw8N3nQ3GAuAkUNK5OSuBXMydyc55/snVRtAw4Yf9m2YkvBx3qfSHusEkOFp2Rj2Yd1Go3OSava9ZYqkIPzrtVEwCkbBIAAAa/QIQN6jgmEAAAAASUVORK5CYII=");
+}
+
+.category a{
+    font-size: medium;
+    color: rgba(63, 63, 63, 0.56);
+}
+.g{
+    display: flex;
+    gap:1rem;
+}
+.fw{
+    width: 25rem;
+}
+aside,footer{
+    width: 25rem;
+}
+
+.cat li{
+    padding: 6px 0;;
+}
+
+.mid li{
+    border-top: 1px solid rgba(63, 63, 63, 0.56);
+    border-bottom: 1px solid rgba(63, 63, 63, 0.56);
+    padding: 8px 0;
+    font-size: medium;
+}
+.fl{
+    display: flex;
+    flex-wrap: wrap;
+}
+.fl li{
+    font-size: 12px;
+    padding: 8px;
+}
+.fl a{
+    color: rgba(63, 63, 63, 0.56);
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+}
+
+.logos li{
+    width: 4rem;
+    height: 4rem;
+    margin: 0 4px;
+}
+
+.namads{
+    display: flex;
+}
+
+.namads li a img{
+    width: 8.4rem;
+}

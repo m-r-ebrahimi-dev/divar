@@ -1,0 +1,40 @@
+
+
+header{
+  direction: rtl;
+  font-size: medium;
+  color: rgba(63, 63, 63, 0.56);
+  background: #fff;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 12%);
+    height: 64px;
+    justify-content: center;
+    margin-bottom: 3.2rem;
+}
+
+nav img{
+  width: 4.8rem;
+  height: 4.8rem;
+}
+nav{
+  display: flex;
+  align-items: center;
+  margin-right: 17rem;
+  margin-left: 3rem;
+}
+nav *{
+  margin:0 1.6rem;
+}
+
+nav .input{
+  flex: 1;
+}
+.input-wrapper{
+  width: 40rem;
+  height: 4rem;
+  background-color: rgba(214, 214, 214, 0.452);
+}
+
+input{
+  background-color: transparent;
+  border: 0;
+}
